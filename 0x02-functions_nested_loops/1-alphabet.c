@@ -2,14 +2,15 @@
 
 /**
  * print_alphabet - Make the alphabet
- *
  * Return: void
  */
 
 void print_alphabet(void)
 {
-	char alp;
+char alp;
+
 	for (alp = 'a'; alp <= 'z'; alp++)
+
 	_putchar(alp);
 	_putchar('\n');
 }
