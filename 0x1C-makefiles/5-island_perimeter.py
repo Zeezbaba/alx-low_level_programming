@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""function that returns the perimeter of island"""
+"""module that returns the perimeter of island"""
 
 
 def island_perimeter(grid):
+    """Function to calculate the perimeter of an island"""
     perimeter = 0
 
     for i in range(len(grid)):
